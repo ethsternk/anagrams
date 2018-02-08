@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="words.js"></script>
+    <title>Anagrams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+        h1 {
+            margin: .5em;
+        }
+        #findButton {
+            padding: .25em;
+            margin: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anagrams</h1>
+    <input type="text" id="input" size=40>
+    <button id="findButton">Find Anagrams</button>
+    <div id="results"></div>
+    <script type="text/javascript" src="anagrams.js"></script>
+</body>
+</html>
